@@ -5,6 +5,7 @@ OPERATOR_NAMESPACE?=$(shell sed -n 's/.*OperatorNamespace .*"\([^"]*\)".*/\1/p' 
 IMAGE_REGISTRY?=quay.io
 IMAGE_REPOSITORY?=$(USER)
 IMAGE_NAME?=$(OPERATOR_NAME)
+FORWARDER_NAME=splunk-forwarder
 
 VERSION_MAJOR?=0
 VERSION_MINOR?=1
